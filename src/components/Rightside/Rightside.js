@@ -3,8 +3,8 @@ import './Rightside.css'
 
 const Rightside = () => {
   return (
-    <div className="container">
-      <div className="card col-md-10">
+    <div>
+      <div className="card">
         <div className="card-header">
           Overflow Blog
         </div>
@@ -14,7 +14,7 @@ const Rightside = () => {
           <li className="list-group-item">Vestibulum at eros</li>
         </ul>
       </div>
-      <div className="card col-md-10">
+      <div className="card">
         <div className="card-header">
           Featured
         </div>
