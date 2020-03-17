@@ -7,7 +7,8 @@ function App() {
   return (
     <>
     <Navbar />
-    <div className="container">
+    <div className="container mt-3">
+        <h1>Questions</h1>
       <div className="row">
          <Question />
          <Question />
