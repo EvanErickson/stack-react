@@ -35,6 +35,32 @@ const Footer = () => {
             </div>
             <!-- Grid column -->
 
+      <hr class="clearfix w-100 d-md-none" />
+
+            <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+              <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!">Link 4</a>
+                </li>
+              </ul>
+
+            </div>
+            <!-- Grid column -->
+
       <hr class="clearfix w-100 d-md-none">
 
               <!-- Grid column -->
@@ -87,48 +113,22 @@ const Footer = () => {
                 </div>
                 <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
-
-                  <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
-
-                    <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-                    <ul class="list-unstyled">
-                      <li>
-                        <a href="#!">Link 1</a>
-                      </li>
-                      <li>
-                        <a href="#!">Link 2</a>
-                      </li>
-                      <li>
-                        <a href="#!">Link 3</a>
-                      </li>
-                      <li>
-                        <a href="#!">Link 4</a>
-                      </li>
-                    </ul>
-
-                  </div>
-                  <!-- Grid column -->
-
     </div>
-                <!-- Grid row -->
+              <!-- Grid row -->
 
   </div>
-              <!-- Footer Links -->
+            <!-- Footer Links -->
 
   <!-- Copyright -->
-  
+
             </div>
-            <!-- Copyright -->
+          <!-- Copyright -->
 
 </footer>
         </div>
-        </div>
+    </div>
   )
 }
 
-
+}}
 export default Footer
