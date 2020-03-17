@@ -3,7 +3,7 @@ import Question from './components/questions/Question';
 import Navbar from './components/Navbar';
 import Rightside from './components/Rightside'
 import Footer from './components/Footer'
-
+import SidebarLeft from './Navbar/SidebarLeft.js'
 
 function App() {
 
@@ -13,6 +13,7 @@ function App() {
     <div className="container mt-3">
       <div className="row">
        <div className="col-md-2">
+            <SidebarLeft />
        </div>
         <div className="col-md-7">
           <div className="container">
