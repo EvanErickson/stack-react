@@ -3,14 +3,22 @@ import Question from './components/questions/Question';
 import Navbar from './components/Navbar';
 
 function App() {
-let arr = new Array();
-arr.length = 10;
+
   return (
     <>
     <Navbar />
     <div className="container">
       <div className="row">
-          {arr.map(elem => { <Question elm={elem}/>})}
+         <Question />
+         <Question />
+         <Question />
+         <Question />
+         <Question />
+         <Question />
+         <Question />
+         <Question />
+         <Question />
+         <Question />
     </div>
     </div>
     </>
